@@ -17,13 +17,13 @@
 
     <link href="common-css/bootstrap.css" rel="stylesheet" />
 
-    <link href="common-css/fluidbox.min.css" rel="stylesheet" />
-
     <link href="common-css/font-icon.css" rel="stylesheet" />
 
     <link href="01-homepage/css/styles.css" rel="stylesheet" />
 
     <link href="01-homepage/css/responsive.css" rel="stylesheet" />
+
+    <script src="https://use.fontawesome.com/ca16c4d139.js"></script>
   </head>
   <body>
     <header>
@@ -40,7 +40,7 @@
         <div class="display-table-cell">
           <div class="slider-content">
             <i class="small-icon icon icon-tie"></i>
-            <h5 class="date">30 AUGUST 2020</h5>
+            <h5 class="date">31 AUGUST 2020</h5>
             <h3 class="pre-title">Save The Date</h3>
             <h1 class="title">
               Parthiban <i class="icon icon-heart"></i> Menaga
@@ -88,11 +88,12 @@
               ></span>
             </div>
           </div>
-
           <div class="col-sm-2"></div>
           <div class="col-sm-8">
             <div class="remaining-time">
-              <div id="clock"></div>
+              <h3 style="font-family: 'Times New Roman', Times, serif;">
+                <span id="clock"></span>
+              </h3>
             </div>
             <!-- remaining-time -->
           </div>
@@ -115,22 +116,11 @@
             </div>
 
             <div class="wedding-details margin-bottom">
-              <div class="w-detail right">
+              <div class="w-detail left">
                 <i class="icon icon-ciurclke"></i>
                 <h4 class="title">MUHURTHAM</h4>
                 <p>
-                  Look at the most passionate ceremony ever. We wish happiness
-                  to the wedding couple.
-                </p>
-              </div>
-              <!-- w-detail -->
-
-              <div class="w-detail left">
-                <i class="icon icon-wine-glass"></i>
-                <h4 class="title">BREAKFAST</h4>
-                <p>
-                  Look at the most passionate ceremony ever. We wish happiness
-                  to the wedding couple.
+                  Muhurtham will be conducted from 4:30AM to 6:30AM
                 </p>
               </div>
               <!-- w-detail -->
@@ -139,8 +129,17 @@
                 <i class="icon icon-camera"></i>
                 <h4 class="title">PHOTOGRAPHY</h4>
                 <p>
-                  Look at the most passionate ceremony ever. We wish happiness
-                  to the wedding couple.
+                  photography event starts at 7:00AM onwards
+                </p>
+              </div>
+
+               <!-- w-detail -->
+
+               <div class="w-detail left">
+                <i class="icon icon-wine-glass"></i>
+                <h4 class="title">BREAKFAST</h4>
+                <p>
+                  Meanwhile the Breakfast start time at 7:00AM onwards
                 </p>
               </div>
           </div>
@@ -165,15 +164,8 @@
 
             <div class="ceremony margin-bottom">
               <p class="desc">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dignissimos, perferendis temporibus perspiciatis adipisci
-                doloribus alias? Cupiditate ab enim in autem adipisci corporis
-                odio soluta iusto officiis, veniam excepturi laboriosam aliquam
-                eos quod explicabo! Minima vel animi itaque repudiandae
-                voluptate maiores.
+                Welcome, loved ones. We are gathered here today to join Parthiban and Menaga in holy matrimony.
               </p>
-
-              <a class="border-btn" href="#">LEARN MORE</a>
             </div>
           </div>
           <!-- col-sm-10 -->
@@ -185,47 +177,60 @@
     <!-- section -->
 
     <section class="contact-area">
-      <div class="contact-wrapper section float-left">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-2"></div>
-
-            <div class="col-sm-10">
-              <div class="heading">
-                <h3 class="title">Contact Us</h3>
-                <i class="icon icon-star"></i>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="contact-wrapper section">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-2"></div>
+    
+                <div class="col-sm-10">
+                  <div class="heading">
+                    <h3 class="title">Contact Us</h3>
+                    <i class="icon icon-star"></i>
+                  </div>
+    
+                  <div class="margin-bottom">
+                    <p>On the 31 August 2020</p>
+                    <p>Join us as we celebrate life and love.</p>
+                    <h4>
+                      <a href="tel:9876543210" class="phone">9876543210</a>
+                    </h4>
+                    <p>
+                      Sri Nelleeswarar Temple,<br />
+                      Achangadu,Mettur Taluk,<br> Salem Dist.
+                    </p>
+                  </div>
+                  <!-- margin-bottom -->
+                </div>
+                <!-- col-sm-10 -->
               </div>
-
-              <div class="margin-bottom">
-                <p>On the 30 August 2020</p>
-                <p>Join us as we celebrate life and love.</p>
-                <h4>
-                  <a href="tel:9876543210" class="phone">9876543210</a>
-                </h4>
-                <p>
-                  Sri Nelleeswarar Temple,Moolakkadu,<br />
-                  Mettur Main Rd,Kolathur.
-                </p>
-              </div>
-              <!-- margin-bottom -->
+              <!-- row -->
             </div>
-            <!-- col-sm-10 -->
+            <!-- container -->
           </div>
-          <!-- row -->
         </div>
-        <!-- container -->
+        <div class="col-sm-6">
+          <div class="map-area">
+            <div id="map" style="height: 100%;">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3905.4004160248355!2d77.77000571412465!3d11.807204542551027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baead34ea6fd49f%3A0xbfd345049517490e!2sNelleeswarar%20Temple!5e0!3m2!1sen!2sin!4v1597585495131!5m2!1sen!2sin"
+                  width="100%"
+                  height="450"
+                  frameborder="0"
+                  style="border: 0;"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
+            </div>
+          </div>
+          <!-- map-area -->
+          
+        </div>
       </div>
+      
       <!-- float-left -->
-
-      <div class="map-area">
-        <div id="map" style="height: 100%;"></div>
-      </div>
-      <!-- map-area -->
-      <script
-        async
-        defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-oEyU88bRR6xcbV1gI_Cahc8ugKC_JPE&callback=initMap"
-      ></script>
     </section>
     <!-- section -->
 
@@ -248,22 +253,31 @@
           <i class="icon-heart" aria-hidden="true"></i> by
           <a href="#" target="_blank">Nanthagopal</a>
         </p>
+        <p>Follow me on</p>
+        
+        <a href="https://www.facebook.com/nanthagopal.nanthu1/" target="_blank" class="fa fa-facebook-f"
+              ></a>
+          
+        <a href="https://twitter.com/Nanthu0123/" target="_blank" class="fa fa-twitter"
+              ></a>
+
+        <a href="https://www.instagram.com/nanthu0123/" target="_blank" class="fa fa-instagram"
+              ></a>
+        
+        <a href="https://stackoverflow.com/users/12289594/nanthagopal-nanthu?tab=profile" target="_blank" class="fa fa-stack-overflow"
+              ></a>
+
+        <a href="https://www.linkedin.com/in/nanthagopal-r-09a396169/" target="_blank" class="fa fa-linkedin"
+              ></a>
+
+        <a href="https://github.com/nanthu0123" target="_blank" class="fa fa-github"
+              ></a>
+            
       </div>
-      <!-- container -->
+   <!-- container -->
     </footer>
 
     <!-- SCRIPTS -->
-
-    <script src="common-js/jquery-3.1.1.min.js"></script>
-
-    <script src="common-js/tether.min.js"></script>
-
-    <script src="common-js/bootstrap.js"></script>
-
     <script src="common-js/jquery.countdown.min.js"></script>
 
-    <script src="common-js/jquery.fluidbox.min.js"></script>
-
-    <script src="common-js/scripts.js"></script>
-  </body>
 </html>
