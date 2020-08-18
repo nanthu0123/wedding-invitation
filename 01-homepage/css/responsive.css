@@ -1,7 +1,6 @@
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
-}
+@media only screen and (max-width: 1200px) {}
 
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
@@ -13,9 +12,11 @@
   h1 {
     font-size: 4em;
   }
+
   h2 {
     font-size: 3em;
   }
+
   h3 {
     font-size: 2em;
   }
@@ -39,15 +40,19 @@
   h1 {
     font-size: 3em;
   }
+
   h2 {
     font-size: 2.5em;
   }
+
   h3 {
     font-size: 1.8em;
   }
+
   h4 {
     font-size: 1.5em;
   }
+
   h5 {
     font-size: 1.2em;
   }
@@ -146,7 +151,7 @@
 	11. FOOTER
 	--------------------------------- */
 
-  footer ul > li > a {
+  footer ul>li>a {
     padding: 10px 7px;
   }
 
@@ -169,10 +174,8 @@
 
 /* Screens Resolution : 359px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 359px) {
-}
+@media only screen and (max-width: 359px) {}
 
 /* Screens Resolution : 290px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 290px) {
-}
+@media only screen and (max-width: 290px) {}
